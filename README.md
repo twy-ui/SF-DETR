@@ -40,10 +40,10 @@ A lightweight backbone network embedding a learnable frequency selection module 
 SF-DETR/main  
 │  
 ├── ultralytics              
-├       ├──cfg/           # Training configuration files
-├       ├──utils/         # Utilities (metrics, visualization, tools) 
-├       ├──nn/            # Provides reusable neural network layers and custom operators 
-├
+│       ├──cfg/           # Training configuration files/
+│       ├──utils/         # Utilities (metrics, visualization, tools) /
+│       ├──nn/            # Provides reusable neural network layers and custom operators /
+│
 ├── dataset/           # Dataset processing scripts   
 ├── train.py           # Training entry point  
 ├── val.py             # Validation and inference entry point  
