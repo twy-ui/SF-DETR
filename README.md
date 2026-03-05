@@ -21,14 +21,16 @@ The proposed design improves small-object perception, foreground-background sepa
 
 ##  Framework Overview
 
-SF-DETR introduces three core components:
+SF-DETR introduces two core components:
 
 ### 1️ Spatial-Frequency Hybrid-Enhanced Multi-scale Feature Fusion (SFH-MFF)
 A lightweight backbone network embedding a learnable frequency selection module to achieve complementary representation of spatial and frequency-domain features.
 
 ### 2 Dual-Linear Attention Frequency-domain Interaction Module (DL-AFIM)
  **Dual-Channel Positive-Negative Linear Attention (DC-PNLA)**  Decomposes Query/Key into positive/negative components to suppress background noise
+ 
  **Frequency-domain Feed-Forward Network (FFT-FFN)** Low-rank quantization matrix filtering high/mid-frequency components
+ 
  **Adaptive Multi-scale Frequency-domain Convolution Dynamic Fusion (AdaptFuse-FD)** Multi-scale DWConv (3×3, 5×5, 7×7) with residual connections for robust 
  
 
