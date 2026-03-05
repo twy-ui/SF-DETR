@@ -61,6 +61,7 @@ SF-DETR/main
 │       ├──utils/         # Utilities (metrics, visualization, tools) 
 │       ├──nn/            # Provides reusable neural network layers and custom operators 
 │
+├── weights            # Training weights
 ├── dataset/           # Dataset processing scripts   
 ├── train.py           # Training entry point  
 ├── val.py             # Validation and inference entry point  
@@ -183,8 +184,13 @@ To reproduce the reported results:
 All hyperparameters and training settings are included in the configuration files.
 
 ---
+##  Pretrained Models
 
+Pretrained weights will be released in the **weights** section of this repository.
 
+For long-term accessibility, a DOI link (via Zenodo) will also be provided.
+
+---
 ##  Resources
 
 - Code: https://github.com/twy-ui/SF-DETR
