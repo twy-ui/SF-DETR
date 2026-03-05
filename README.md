@@ -1,6 +1,22 @@
 # SF-DETR  
 **Enhancing UAV Small Object Detection via Spatial-Frequency Synergy and Polarity-Aware Attention**
 
+---
+##  Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@article{sf-detr,
+  title={Enhancing UAV Small Object Detection via Spatial-Frequency Synergy and Polarity-Aware Attention},
+  author={Tang, Weiyan and Sun, Fuzhen and Jing, Zihao and Zhu, Zhuangrui and Li, Yudong and Wang, Shaoqing},
+  journal={The Visual Computer},
+  year={2026}
+}
+```
+
+---
+
 ##  Introduction
 
 Object detection in UAV imagery faces significant challenges, including:
@@ -62,7 +78,10 @@ SF-DETR/main
 - pycocotools  
 - timm  
 - einops  
-
+- mmcv
+- mmengine
+- trition
+  
 Install dependencies:
 
 ```bash
@@ -165,20 +184,6 @@ All hyperparameters and training settings are included in the configuration file
 
 ---
 
-##  Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{sf-detr,
-  title={Enhancing UAV Small Object Detection via Spatial-Frequency Synergy and Polarity-Aware Attention},
-  author={Tang, Weiyan and Sun, Fuzhen and Jing, Zihao and Zhu, Zhuangrui and Li, Yudong and Wang, Shaoqing},
-  journal={The Visual Computer},
-  year={2026}
-}
-```
-
----
 
 ##  Resources
 
