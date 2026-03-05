@@ -1,7 +1,6 @@
 import warnings, os
 # os.environ["CUDA_VISIBLE_DEVICES"]="-1"    # 代表用cpu训练 不推荐！没意义！ 而且有些模块不能在cpu上跑
 # os.environ["CUDA_VISIBLE_DEVICES"]="0"     # 代表用第一张卡进行训练  0：第一张卡 1：第二张卡
-# 多卡训练参考<使用教程.md>下方常见错误和解决方案
 warnings.filterwarnings('ignore')
 from ultralytics import RTDETR
 
