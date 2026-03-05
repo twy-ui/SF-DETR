@@ -136,7 +136,7 @@ data/
         ├── val/
         └── test/
 ```
-
+The download link for the datasets from Baidu Netdisk is: https://pan.baidu.com/s/1628CmrE9qxXYG0ALSVDInw?pwd=X86h 
 After downloading, modify the dataset path in the corresponding config file if necessary.
 
 ---
