@@ -195,7 +195,7 @@ For long-term accessibility, a DOI link (via Zenodo) will also be provided.
 ##  Resources
 
 - Code: https://github.com/twy-ui/SF-DETR
-- DOI: To be added  
+- DOI: 10.5281/zenodo.18883197  
 
 ---
 
